@@ -1,0 +1,137 @@
+.navstyle {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 210, 29, 1)6%, rgba(253, 229, 119, 1)37%, rgba(253, 229, 119, 1)63%, rgba(255, 210, 29, 1)92%);
+    font-size: 21px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+
+}
+
+.welcomeBackground {
+
+    background-image: url("../img/slusalki.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.welcomeText {
+    position: relative;
+    top: 18em;
+    text-align: center;
+    margin-top: -7em;
+
+}
+ 
+.content{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.download{
+    text-align: center;
+    padding: 3em;
+    background: linear-gradient(90deg, rgba(255, 210, 29, 1)6%, rgba(253, 229, 119, 1)37%, rgba(253, 229, 119, 1)63%, rgba(255, 210, 29, 1)92%);
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 10px;
+    border-radius: 10px;
+    background-color: #dbdbdb;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10Px;
+    -webkit-box-shadow: inset 0 0 6px rgba(6, 126, 66, 0.952);
+    background-color: rgb(146, 143, 143);
+}
+
+.buttonstyle {
+    width: 13em;
+    height: 4em;
+    border-radius: 5px;
+    background-color: red;
+    animation: button 2s infinite;
+}
+
+@keyframes button {
+    0% {
+        background-color: green
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+body {
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.paragraph1 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.paragraph2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.col-12. {
+    max-width: 100% !important;
+}
+
+.col-md-4 {
+    max-width: 100% !important;
+}
+
+.menuImg {
+    width: 16rem;
+}
+
+.spacing {
+    margin-bottom: 1.5rem !important;
+}
+
+.menuBot {
+    width: 14rem;
+}
+
+.footer {
+    padding: 3em;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 2em;
+}
+.cards{
+    margin-top: 2em;
+}
+.photoGalery{
+    margin-top: 2em;
+}
+.why{
+    padding: 3em;
+    background-color: #fac769;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
